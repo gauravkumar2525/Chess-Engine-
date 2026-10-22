@@ -1,0 +1,21 @@
+# Build artifacts
+src/main
+src/runtest
+src/gui
+src/*.o
+cmake-build-*/
+# Local environments, IDE state, and build output
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+build/
+dist/
+cmake-build-*/
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+.env
+.env.*
